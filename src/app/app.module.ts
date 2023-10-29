@@ -7,6 +7,7 @@ import { DropdownComponent } from './components/sharedcomponents/dropdown/dropdo
 import { InputlabelComponent } from './components/sharedcomponents/inputlabel/inputlabel/inputlabel.component';
 import { LabelComponent } from './components/sharedcomponents/label/label/label.component';
 import { BreadscurmComponent } from './components/sharedcomponents/breadscurm/breadscurm/breadscurm.component';
+import { LoginComponent } from './components/userauth/login/login/login.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { BreadscurmComponent } from './components/sharedcomponents/breadscurm/br
     DropdownComponent,
     InputlabelComponent,
     LabelComponent,
-    BreadscurmComponent
+    BreadscurmComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
