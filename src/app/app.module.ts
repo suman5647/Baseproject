@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DropdownComponent } from './components/sharedcomponents/dropdown/dropdown/dropdown.component';
-import { InputlabelComponent } from './components/sharedcomponents/inputlabel/inputlabel/inputlabel.component';
-import { LabelComponent } from './components/sharedcomponents/label/label/label.component';
-import { BreadscurmComponent } from './components/sharedcomponents/breadscurm/breadscurm/breadscurm.component';
-import { LoginComponent } from './components/userauth/login/login/login.component';
+import { DropdownComponent } from './components/sharedcomponents/dropdown/dropdown.component';
+import { InputlabelComponent } from './components/sharedcomponents/inputlabel/inputlabel.component';
+import { LabelComponent } from './components/sharedcomponents/label/label.component';
+import { BreadscurmComponent } from './components/sharedcomponents/breadscurm/breadscurm.component';
+import { LoginComponent } from './components/userauth/login/login.component';
+import { FooterComponent } from './components/common/footer/footer.component';
+import { HeaderComponent } from './components/common/header/header.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { LoginComponent } from './components/userauth/login/login/login.componen
     InputlabelComponent,
     LabelComponent,
     BreadscurmComponent,
-    LoginComponent
+    LoginComponent,
+    FooterComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
