@@ -10,6 +10,11 @@ import { BreadscurmComponent } from './components/sharedcomponents/breadscurm/br
 import { LoginComponent } from './components/userauth/login/login.component';
 import { FooterComponent } from './components/common/footer/footer.component';
 import { HeaderComponent } from './components/common/header/header.component';
+import { SignupComponent } from './components/userauth/signup/signup.component';
+import { ResetPasswordComponent } from './components/userauth/reset-password/reset-password.component';
+import { MatCardModule } from '@angular/material/card';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { LandingpageComponent } from './components/common/landingpage/landingpage.component';
 
 @NgModule({
   declarations: [
@@ -20,13 +25,20 @@ import { HeaderComponent } from './components/common/header/header.component';
     BreadscurmComponent,
     LoginComponent,
     FooterComponent,
-    HeaderComponent
+    HeaderComponent,
+    SignupComponent,
+    ResetPasswordComponent,
+    LandingpageComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatCardModule,
+    MatFormFieldModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+export class MaterialModule {};
